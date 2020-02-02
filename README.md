@@ -8,6 +8,8 @@ Pré Requisitos:
  OBS: Mas isso pode ser configurado atraves dos arquivos "application.properties" "application-test.properties"
  
  Funcionamento:
+ mvn install
+ 
  APIs:
   - GET: http://localhost:8080/api/enderecos
     retorna um JSON array com todos os endereços salvos no banco
