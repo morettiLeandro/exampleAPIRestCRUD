@@ -25,4 +25,5 @@ Pré Requisitos:
     necessario enviar um json dentro do body
     atualiza o endereço enviado no body
   
-  
+  - DELETE: http://localhost:8080/api/enderecos/{id}
+    deleta o registro do banco com o id enviado na url
