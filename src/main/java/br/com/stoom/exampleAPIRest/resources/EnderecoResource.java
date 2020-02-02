@@ -100,7 +100,6 @@ public class EnderecoResource {
 	
 	@PutMapping("/enderecos")
 	public Endereco updateEndereco(@RequestBody Endereco endereco){
-		//TODO: verificar campos nulos, inclusive id
 		
 		return enderecoRepository.save(endereco);
 	}
